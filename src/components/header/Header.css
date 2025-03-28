@@ -1,0 +1,115 @@
+.nav-header {
+    min-width: fit-content;
+    border-bottom: 1px solid #ececec;
+}
+
+.header_container {
+    min-width: fit-content;
+    padding: 0 1.5rem;
+    position: relative;
+    margin: 0 5rem;
+}
+
+.main-area {
+    min-width: 100%;
+    height: 100%;
+}
+
+.bar {
+    display: none;
+}
+
+.main-area-menu {
+    min-width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-item>a {
+    text-decoration: none;
+    color: #696969 !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    height: 100%;
+    padding: 1.9rem 0;
+    text-wrap: nowrap;
+}
+
+.nav-item > a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.3rem;
+    background-color: black;
+}
+
+.nav-item > a.active,
+.nav-item>a:hover {
+    color: black !important;
+}
+
+.nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0.3rem;
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    animation: expandFromCenter 0.3s ease-out forwards;
+}
+
+@keyframes expandFromCenter {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.operation-icon>button,
+.operation-icon>a,
+.bar>button {
+    border: none;
+    background: none;
+    color: #696969 !important;
+
+}
+
+
+@media only screen and (max-width: 996px) {
+    .nav-item {
+        display: none;
+    }
+
+    .main-area-menu {
+        display: none;
+        min-width: 0;
+        width: 0;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .header_container {
+        padding: 0 1.5rem;
+        margin: 0;
+    }
+}
