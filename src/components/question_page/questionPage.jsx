@@ -43,7 +43,7 @@ export default function QuestionPage() {
                                         <td className={styles.faqQuestion}>{q.title}</td>
                                         <td className="col-md-2 text-center"><i className="fa-regular fa-comment"></i> {q.answers}</td>
                                     </tr>
-                                ))}Frontend developer with special care on the user experience. Passionate for learning new technologies and methodologies
+                                ))}
                             </tbody>
                         </table>
                     </div>
