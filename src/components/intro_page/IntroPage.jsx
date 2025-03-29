@@ -1,14 +1,22 @@
 import { NavLink } from 'react-router-dom'
 import styles from './IntroPage.module.css'
 
+// Import images
+import introHeader from 'src/assets/img/Intro/intro_header.png'
+import introHeaderXs from 'src/assets/img/Intro/kv-about-index-xs.jpg'
+import aboutUsImg from 'src/assets/img/Intro/banner-about-index-aboutus.jpg'
+import oneStepServiceImg from 'src/assets/img/Intro/banner-about-index-one-step-service.jpg'
+import sustainabilityImg from 'src/assets/img/Intro/banner-about-index-sustainability.jpg'
+import contactUsMobileImg from 'src/assets/img/Intro/banner-about-index-contact-xs.jpg'
+
 export default function IntroPage() {
 
     return (
         <div className={`${styles.introMain}`}>
             <header className={styles.aboutHeader}>
                 <div className={styles.introHeader}>
-                    <img className={`${styles.introImgHeader} d-none d-lg-block`} src='src/assets/img/Intro/intro_header.png' />
-                    <img className={`${styles.introImgHeader} d-block d-lg-none`} src='src/assets/img/Intro/kv-about-index-xs.jpg' />
+                    <img className={`${styles.introImgHeader} d-none d-lg-block`} src={introHeader} />
+                    <img className={`${styles.introImgHeader} d-block d-lg-none`} src={introHeaderXs} />
                     <p className={styles.introHeaderText}>VỀ MK</p>
                 </div>
                 <div className={styles.description}>
@@ -22,28 +30,28 @@ export default function IntroPage() {
                         <div className='col-lg-4'>
                             <div>
                                 <div className={`${styles.introCardTitle} text-center`}>Về chúng tôi</div>
-                                <div ><img className={styles.introCardImg} src='src/assets/img/Intro/banner-about-index-aboutus.jpg'></img></div>
+                                <div ><img className={styles.introCardImg} src={aboutUsImg}></img></div>
                                 <div className={styles.introCardText}>MK là thương hiệu hàng đầu trong lĩnh vực sản phẩm chơi game và sáng tạo, không ngừng đổi mới để mang đến những trải nghiệm vượt trội cho người dùng trên toàn thế giới.</div>
                             </div>
                         </div>
                         <div className='col-lg-4'>
                             <div>
                                 <div className={`${styles.introCardTitle} text-center`}>Dịch vụ MỘT CHẠM</div>
-                                <div ><img className={styles.introCardImg} src='src/assets/img/Intro/banner-about-index-one-step-service.jpg'></img></div>
+                                <div ><img className={styles.introCardImg} src={oneStepServiceImg}></img></div>
                                 <div className={styles.introCardText}>Chúng tôi cung cấp hệ thống dịch vụ tùy biến, đáp ứng mọi nhu cầu của khách hàng, đảm bảo sự tiện lợi và hiệu quả tối đa trong quá trình sử dụng sản phẩm MK.</div>
                             </div>
                         </div>
                         <div className='col-lg-4'>
                             <div>
                                 <div className={`${styles.introCardTitle} text-center`}>Bền vững</div>
-                                <div ><img className={styles.introCardImg} src='src/assets/img/Intro/banner-about-index-sustainability.jpg'></img></div>
+                                <div ><img className={styles.introCardImg} src={sustainabilityImg}></img></div>
                                 <div className={styles.introCardText}>MK cam kết bảo vệ môi trường, nâng cao an toàn sức khỏe và thực hiện trách nhiệm xã hội, hướng đến sự phát triển bền vững cho cộng đồng và thế hệ tương lai.</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <figure className={`${styles.contactUsImg}`}>
-                    <img className={`${styles.contactUsImgMobile} d-block d-lg-none`} src='src\assets\img\Intro\banner-about-index-contact-xs.jpg'></img>
+                    <img className={`${styles.contactUsImgMobile} d-block d-lg-none`} src={contactUsMobileImg}></img>
                 </figure>
                 <div className={styles.contactUs}>
                     <div className='commonContainer'>
