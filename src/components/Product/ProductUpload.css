@@ -1,0 +1,13 @@
+.card-body
+{
+display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 400px;
+}
+.button-publish-view{
+    margin-top: auto; 
+  }
+ /* .card-submit-row{
+    flex-grow: 1;
+  } */

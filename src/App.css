@@ -5,3 +5,11 @@
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.equal-btn {
+    min-width: 80px;
+}
+
+.text-gray-600 {
+    color: #6c747e
+}

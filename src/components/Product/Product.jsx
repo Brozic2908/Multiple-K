@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Card, Button, Form, Pagination } from 'react-bootstrap';
-import './Product.css'; // CSS riêng
+import { faArrowDown, faChevronRight, faComputer, faDesktop } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight, faArrowDown, faDesktop, faComputer } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
+import { Card, Col, Container, Form, Pagination, Row } from 'react-bootstrap';
+import './Product.css'; // CSS riêng
 
+
+import { NavLink } from 'react-router-dom';
 import Titan18x from '../../assets/img/Titan18x.png';
 import Titan18x2 from '../../assets/img/Titan18x2.png';
 import Titan18x3 from '../../assets/img/Titan18x3.png';
+
 
 const LeftSidebar = () => {
   const [openSections,setOpenSection] = useState({
@@ -126,8 +129,9 @@ const LeftSidebar = () => {
 const RightSidebar = () => {
   return (
     <>
-      <div className='container-card'>
+      <div className='container-card' >
         {/* Card 1 */}
+        <NavLink to="/products/detail" className="text-decoration-none">
         <div className="card">
           <Card className="product-card">
           <div className="prod__tag"><div className="triangle"></div><span className="tagTitle">MỚI</span></div>
@@ -141,8 +145,10 @@ const RightSidebar = () => {
             </Card.Body>
           </Card>
         </div>
+        </NavLink>
 
         {/* Card 2 */}
+        <NavLink to="/products/detail" className="text-decoration-none">
         <div className="card">
           <Card className="product-card">
           <div className="prod__tag"><div className="triangle"></div><span className="tagTitle">MỚI</span></div>
@@ -156,8 +162,9 @@ const RightSidebar = () => {
             </Card.Body>
           </Card>
         </div>
-
+        </NavLink>
         {/* Card 3 */}
+        <NavLink to="/products/detail" className="text-decoration-none">
         <div className="card">
           <Card className="product-card">
           <div className="prod__tag"><div className="triangle"></div><span className="tagTitle">HOT</span></div>
@@ -171,8 +178,9 @@ const RightSidebar = () => {
             </Card.Body>
           </Card>
         </div>
+        </NavLink>
       </div>
-
+      
       {/* Pagination */}
       <div className="pagination-container">
         <Pagination>

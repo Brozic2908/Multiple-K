@@ -1,4 +1,5 @@
 .nav-header {
+    max-width: 100vw;
     min-width: fit-content;
     border-bottom: 1px solid #ececec;
 }

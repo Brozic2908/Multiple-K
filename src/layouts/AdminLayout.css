@@ -1,8 +1,10 @@
 .sidebar {
     background-color: #fff;
-    height: 100vh;
+    height: calc(100vh-80px);
     width: 250px;
     border-right: 1px solid #dee2e6;
+    position: sticky;
+    top: 80px;
   }
   
   .sidebar-item {
@@ -26,4 +28,8 @@
     background-color: #e83e8c;
     color: white;
   }
-  
+  .submenu
+  {
+    border-left: 2px solid rgba(18, 18, 18, 0.2);
+    padding-left: 20px;
+  }

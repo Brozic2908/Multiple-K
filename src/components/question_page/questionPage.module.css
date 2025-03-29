@@ -26,11 +26,36 @@
     margin-bottom: 1rem;
 }
 
-.faqQuestion:hover {
-    color: red;
+.faqRow td, .faqRow th {
+    transition: color 0.2s ease-in-out;
+}
+
+.faqRow:hover td, .faqRow:hover th {
+    color: red; /* Màu nền khi hover */
     cursor: pointer;
 }
 
-.faqRow:hover {
-    cursor: pointer;
+.modalContain {
+    background-color: white;
+    width:60rem;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    margin: 0 auto;
+}
+
+.noticeBox {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: rgb(250, 250, 250);
+}
+
+.noticeBoxTitle {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.noticeFormCheck:checked {
+    background-color: red !important;
+    border-color: rgb(245, 55, 55);
 }

@@ -219,6 +219,7 @@ body
   .gpu.gpu.faChevronRight{
     margin-right: 5px;
   }
+ 
   @media (max-width: 768px) {
     .product-header {
       flex-direction: column;

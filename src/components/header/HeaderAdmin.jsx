@@ -25,7 +25,7 @@ import { MdWbSunny} from "react-icons/md";
 import './HeaderAdmin.css';
 const HeaderAdmin = () => {
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm py-2">
+    <Navbar bg="light" expand="lg" className="nav-bar-admin shadow-sm py-2">
       
       <Container fluid >
       <Row className=" left-element-bar w-100 align-items-center">
@@ -90,9 +90,9 @@ const HeaderAdmin = () => {
             {/* User Dropdown */}
             <Dropdown align="end">
               <Dropdown.Toggle variant="light" className="d-flex align-items-center border-0 shadow-none">
-                <div class="avatar bg-warning me-3">
-                    <span class="avatar-content">AS</span>
-                    <span class="avatar-status bg-success"></span>
+                <div className="avatar bg-warning me-3">
+                    <span className="avatar-content">AS</span>
+                    <span className="avatar-status bg-success"></span>
                 </div>
                 <div className="d-none d-md-block text-start">
                   <div className="fw-semibold text-dark">Miron Mahmud</div>

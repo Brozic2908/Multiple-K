@@ -47,7 +47,7 @@ export default function Header() {
 						<div className='logo align-content-center'>
 							<NavLink to='/'>
 								<img
-									src='https://storage-asset.msi.com/frontend/imgs/logo.png'
+									src='/logo/logo.png'
 									alt='MSI  Logo'
 									width='98.8'
 									height='65'
