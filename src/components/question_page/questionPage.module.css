@@ -37,7 +37,7 @@
 
 .modalContain {
     background-color: white;
-    width:60rem;
+    max-width:60rem;
     padding: 2rem;
     border-radius: 0.4rem;
     margin: 0 auto;
