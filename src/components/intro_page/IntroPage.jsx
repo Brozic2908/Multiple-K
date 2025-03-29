@@ -2,12 +2,12 @@ import { NavLink } from 'react-router-dom'
 import styles from './IntroPage.module.css'
 
 // Import images
-import introHeader from 'src/assets/img/Intro/intro_header.png'
-import introHeaderXs from 'src/assets/img/Intro/kv-about-index-xs.jpg'
-import aboutUsImg from 'src/assets/img/Intro/banner-about-index-aboutus.jpg'
-import oneStepServiceImg from 'src/assets/img/Intro/banner-about-index-one-step-service.jpg'
-import sustainabilityImg from 'src/assets/img/Intro/banner-about-index-sustainability.jpg'
-import contactUsMobileImg from 'src/assets/img/Intro/banner-about-index-contact-xs.jpg'
+import introHeader from '../../assets/img/Intro/intro_header.png'
+import introHeaderXs from '../../assets/img/Intro/kv-about-index-xs.jpg'
+import aboutUsImg from '../../assets/img/Intro/banner-about-index-aboutus.jpg'
+import oneStepServiceImg from '../../assets/img/Intro/banner-about-index-one-step-service.jpg'
+import sustainabilityImg from '../../assets/img/Intro/banner-about-index-sustainability.jpg'
+import contactUsMobileImg from '../../assets/img/Intro/banner-about-index-contact-xs.jpg'
 
 export default function IntroPage() {
 
