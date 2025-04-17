@@ -1,0 +1,133 @@
+.loginBg {
+  background-color: #f2f2f2;
+  background-image: url("../../assets/img/Login-img/bg-login-index.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 75%;
+}
+
+.loginBorderRight {
+  border-right: 1px solid #ccc;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #ccc;
+}
+
+.customColor {
+  border: 2px solid #dc3545; /* màu viền danger */
+  background-color: #dc3545; /* giữ màu nền ban đầu */
+  color: white;
+  transition: 0.2s ease;
+}
+
+.customColor:hover {
+  background-color: white !important;
+  color: #dc3545 !important;
+}
+
+.customColorGG {
+  border: 2px solid #db4437; /* màu viền danger */
+  background-color: #db4437; /* giữ màu nền ban đầu */
+  color: white;
+  transition: 0.2s ease;
+}
+
+.customColorGG:hover {
+  background-color: white !important;
+  color: #db4437 !important;
+}
+
+@media (max-width: 992px) {
+  .loginBorderRight {
+    border-right: none;
+  }
+}
+/* Register.module.css */
+
+.registerContainer {
+  padding: 20px 15px 50px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.introText {
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 25px 0;
+  border-top: 1px solid #ddd;
+}
+
+.captchaImage {
+  position: relative;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.captchaImg {
+  height: 100%;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.refreshCaptcha {
+  padding: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.submitButton,
+.cancelButton {
+  flex: 1;
+  padding: 10px 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton {
+  border: 2px solid #e31b23;
+  background-color: #e31b23;
+  border-color: #e31b23;
+}
+
+.submitButton:hover {
+  background-color: #fff;
+  color: #c01820;
+}
+
+.cancelButton {
+  border: 2px solid #6c757d;
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+.cancelButton:hover {
+  background-color: #fff;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .buttonGroup {
+    flex-direction: column;
+  }
+}

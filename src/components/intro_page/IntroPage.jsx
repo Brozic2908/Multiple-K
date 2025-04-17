@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import styles from './IntroPage.module.css'
 
 // Import images
-import introHeader from '../../assets/img/Intro/intro_header.png'
+import introHeader from "../../assets/img/Intro/intro_header.png"
 import introHeaderXs from '../../assets/img/Intro/kv-about-index-xs.jpg'
 import aboutUsImg from '../../assets/img/Intro/banner-about-index-aboutus.jpg'
 import oneStepServiceImg from '../../assets/img/Intro/banner-about-index-one-step-service.jpg'
