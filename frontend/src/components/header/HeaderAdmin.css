@@ -1,0 +1,22 @@
+.left-element-bar
+{
+    margin:0 !important;
+}
+.position-relative
+{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(153, 210, 241,0.4);
+    width: 40px;
+    height: 40px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+.nav-bar-admin
+{
+    position:sticky;
+    top:0;
+    z-index: 100;
+}

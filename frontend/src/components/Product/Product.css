@@ -1,0 +1,233 @@
+.product-page {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px 4rem;
+  }
+h5
+{
+  font-size: 1rem !important;
+}
+body
+{
+    margin: 0px ;
+}  
+
+.main-products
+{
+    padding: 20px 60px;
+}
+.rightsidebar-product
+{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+.leftsidebar-product {
+    background-color: #111;
+    padding: 30px 15px;
+    border-radius: 8px;
+    font-weight: 200;
+  }
+.faDesktop, .faComputer{
+  margin-right: 5px;
+}
+  .filter-section {
+    margin-bottom: 30px;
+  }
+  
+  .filter-section h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .gpu-list {
+    list-style: none;
+    padding-left:30px;
+
+
+  }
+  .gpu-list i
+  {
+    margin-right: 5px;
+    color: red;
+  }
+  .gpu-list li {
+    margin-bottom: 10px;
+  }
+  .gpu.mb-2
+  {
+    cursor: pointer;
+  }
+  .see-more {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .see-more i
+  {
+    margin-right: 10px;
+  }
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sort-buttons button {
+    margin-left: 10px;
+  }
+  .card 
+  {
+    background-color: transparent !important;
+  }
+  .card-img-top
+  {
+    z-index: 1;
+    position: relative;
+  }
+  .product-card {
+    /* background-color: #111; */
+    color: #fff;
+    border: 1px solid #333;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* .product-card .corner-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    z-index: 10;
+    width: 75px;
+    height: 75px;
+    line-height: 30px; 
+  }
+  
+  .product-card .corner-label.hot {
+    background-color: #f00;
+  } */
+  .prod__tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border: solid;
+  border-width: 75px;
+  border-color: #e30613 transparent transparent transparent;
+  border-bottom: 0;
+  border-right: 0;
+}
+.tagTitle {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  font-size: var(--text-xs);
+  color: var(--color-gray-300);
+}
+  .product-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .product-desc {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-link {
+    background-color: red !important;
+    color: #fff !important;
+    border: none;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #f00 !important;
+    border-radius: 5px;
+  }
+  .toggle-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .toggle-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-icon.rotate {
+    transform: rotate(90deg);
+  }
+  
+  /* Animation cho ẩn/hiện nội dung */
+  .filter-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease, padding 0.2s ease-out;
+  }
+  .sublist
+  {
+    /* padding-left:30px; */
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease, padding 0.2s ease-out;
+  }
+  
+  .open {
+    max-height: 500px; /* Số lớn tùy ý đủ để show toàn bộ nội dung */
+    padding: 10px 10px 0px 30px;
+    
+  }
+  .container-card
+  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 3%;
+    text-align: center;
+  }
+  
+  .custom-checkbox input[type="checkbox"]:checked + label {
+    color: red;
+  }
+  .custom-checkbox input[type="checkbox"]:checked {
+    background-color: red;       /* Màu nền ô tick */
+    border-color: red;           /* Viền ô tick */
+  }
+  .gpu.gpu.faChevronRight{
+    margin-right: 5px;
+  }
+ 
+  @media (max-width: 768px) {
+    .product-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .sort-buttons {
+      margin-top: 10px;
+    }
+  }
+  
