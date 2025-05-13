@@ -1,0 +1,15 @@
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+  
+  .form-control {
+    padding-right: 2.5rem; /* Dành chỗ bên phải để không đè lên icon */
+  }
+  

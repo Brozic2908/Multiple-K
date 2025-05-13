@@ -1,0 +1,85 @@
+  
+  .sidebar-item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .badge-custom {
+    font-size: 0.6rem;
+    padding: 4px 6px;
+    border-radius: 999px;
+  }
+  
+  .badge-pink {
+    background-color: #e83e8c;
+    color: white;
+  }
+  .submenu
+  {
+    border-left: 2px solid rgba(18, 18, 18, 0.2);
+    padding-left: 20px;
+  }
+
+
+
+  
+  /* Cho màn hình lớn (≥992px trở lên)
+  @media (max-width: 991px) {
+    .sidebarWrapper.open1 {
+      position: sticky;
+      top: 80px;
+      left: 0;
+      width: 250px;
+      height: calc(100vh - 80px);
+      background-color: #fff;
+      transition: none; 
+    }
+  } */
+  .sidebarWrapper {
+    background-color: #fff;
+    height: calc(100vh - 81px);
+    width: 250px;
+    border-right: 1px solid #dee2e6;
+    position: sticky;
+    top: 81px;
+  }
+  /* Khi mobile, sidebar đóng */
+  .sidebarWrapper:not(.open1) {
+    width: 0;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebarWrapper {
+      position: fixed;
+      top: 81px;
+      left: 0;
+      height: calc(100vh - 81px);
+      z-index: 1000;
+      width: 0;
+      background: white;
+      transition: width 0.3s ease;
+    }
+  
+    .sidebarWrapper.open1 {
+      width: 60%;
+    }
+  }
+  
+  /* Nếu màn hình rất nhỏ như iPhone → chiếm 100% */
+  @media (max-width: 575.98px) {
+    .sidebarWrapper.open1 {
+      width: 85%; /* sidebar rộng hơn */
+    }
+  
+    .sidebar-item {
+      padding: 12px 16px; /* to thêm vùng click */
+    }
+  }
+  

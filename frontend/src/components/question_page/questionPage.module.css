@@ -1,0 +1,66 @@
+.faqContain {
+  position: relative;
+}
+
+.faqHeader {
+  border-bottom: 1px solid #e2e2e2;
+  background: url("../../assets/img/FAQ/bg.png") center no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.faqTitle {
+  font-weight: 700;
+  padding: 3rem;
+  color: black;
+}
+
+.faqSearch {
+  display: flex;
+  align-items: center;
+}
+
+.faqSearchIcon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.listTitle {
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-left: 0.2rem solid red;
+  padding-left: 1rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.faqRow:hover td,
+.faqRow:hover th {
+  color: red; /* Màu nền khi hover */
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.modalContain {
+  background-color: white;
+  width: 60rem;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  margin: 0 auto;
+}
+
+.faqList {
+  margin-bottom: 2rem;
+}
+
+.addQuestionBtn {
+  border: 2px solid red;
+  transition: all 0.3s ease;
+}
+
+.addQuestionBtn:hover {
+  color: red;
+  background: white;
+  border: 2px solid red;
+}

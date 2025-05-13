@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /web-hk242/backend/
+
+# Allow direct access to files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route all requests to index.php
+RewriteRule ^(.*)$ index.php [QSA,L]

@@ -1,0 +1,6 @@
+@media (max-width: 767.98px) {
+  /* tablet */
+  .cardBody {
+    min-height: 0px !important;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../assets/Mazer/css/app-dark.css";
+@import "../../assets/Mazer/css/app.css";
+
+.mazer-scope {
+  font-family: var(--bs-font-sans-serif);
+  direction: ltr;
+  background-color: transparent;
+}
+
+.mazer-scope * {
+  box-sizing: border-box;
+}

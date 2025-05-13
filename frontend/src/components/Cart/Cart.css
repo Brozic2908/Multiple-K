@@ -1,0 +1,11 @@
+.cart-badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 2px 6px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  

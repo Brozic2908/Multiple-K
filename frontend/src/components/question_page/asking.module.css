@@ -1,0 +1,38 @@
+.noticeBox {
+  padding: 2rem;
+  margin: 1rem 0;
+  background-color: rgb(250, 250, 250);
+}
+
+.noticeBoxTitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.noticeFormCheck:checked {
+  background-color: red !important;
+  border-color: rgb(245, 55, 55);
+}
+
+.hoverRed {
+  border: 2px solid red;
+  transition: all 0.3s ease;
+}
+
+.hoverRed:hover {
+  color: red;
+  background: white;
+  border: 2px solid red;
+}
+
+.hoverGray {
+  border: 2px solid gray;
+  transition: all 0.3s ease;
+}
+
+.hoverGray:hover {
+  color: gray;
+  background: white;
+  border: 2px solid gray;
+}

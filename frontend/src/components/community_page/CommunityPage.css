@@ -1,0 +1,49 @@
+.community-page {
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.community-card {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    height: 100%;
+    min-height: 350px;
+}
+
+.community-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.community-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.community-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.community-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.community-desc {
+    font-size: 0.9rem;
+}
+
+.community-date {
+    font-size: 0.8rem;
+    margin-top: auto;
+}

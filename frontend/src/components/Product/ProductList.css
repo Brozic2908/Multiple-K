@@ -1,0 +1,35 @@
+body
+{
+  box-sizing: border-box;
+}
+.page-item
+{
+    margin: 5px;
+}
+@media (max-width: 767.98px) {
+    /* table thead th:nth-child(1), */
+    table thead th:nth-child(2),
+    /* table tbody td:nth-child(1), */
+    table tbody td:nth-child(2),
+    table thead th:nth-child(4),
+    /* table thead th:nth-child(5), */
+    table thead th:nth-child(9),
+    table thead th:nth-child(10),
+    table tbody td:nth-child(4),
+    /* table tbody td:nth-child(5), */
+    table tbody td:nth-child(9),
+    table tbody td:nth-child(10) {
+      display: none;
+    }
+  }
+ 
+  @media (max-width: 767.98px) {
+    table {
+      font-size: 0.75rem; /* nhỏ chữ lại */
+    }
+    table th,
+    table td {
+      padding: 0.3rem 0.5rem; /* nhỏ padding */
+    }
+  }
+  

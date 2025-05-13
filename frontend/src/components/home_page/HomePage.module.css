@@ -1,0 +1,95 @@
+.homePage {
+    margin: 1px 0;
+    max-width: 100%;
+}
+
+.hpSection1 {
+    position: relative;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ececec;
+}
+
+.slideImage {
+    position: relative;
+}
+
+
+.slideImage>img {
+    width: 100%;
+    height: 900px;
+    max-height: 900px;
+    position: relative;
+    object-fit: cover;
+}
+
+.backgroundSlide {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 10rem;
+    height: 800px;
+    max-height: 800px;
+}
+
+.backgroundSlideLap {
+    display: block;
+    width: 60%;
+    height: 550px;
+
+    object-fit: contain;
+
+    margin: 0 auto;
+    animation: float 3s ease-in-out infinite;
+}
+
+.backgroundSlideTitle {
+    display: block;
+    width: 50%;
+    height: 125px;
+
+    object-fit: contain;
+
+    margin: 3% auto 0 auto;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.hpSection2 {
+    padding: 1.5em 0;
+    background-color: #fafafa;
+}
+
+.contentSection2 {
+    padding: 2em 1.5em;
+}
+
+.contentSection2 a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.contentSection2 a:hover {
+    transform: scale(1.05);
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card.customCard {
+    background-color: white !important;
+}

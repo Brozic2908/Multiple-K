@@ -1,0 +1,104 @@
+.bg-light {
+    background-color: white !important;
+  }
+.left-element-bar
+{
+    margin:0 !important;
+}
+.position-relative
+{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(153, 210, 241,0.4);
+    width: 40px;
+    height: 40px;
+    padding: auto;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+.nav-bar-admin
+{
+    position:sticky;
+    top:0;
+    z-index: 100;
+}
+/* app.module.css */
+.avatar {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    color: white;
+  }
+  
+  .avatarContent {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .avatarStatus {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: green;
+    border: 2px solid white;
+  }
+  .okela
+  {
+    flex: 1;
+  }
+  @media (max-width: 767.98px) {
+    .left-element-bar img {
+      width: 70px; /* nhỏ logo lại */
+      height: auto;
+    }
+    
+    
+    .left-element-bar .col-md-6 {
+      gap: 10px; /* Giảm khoảng cách icon */
+      justify-content: end; /* đẩy icon sang phải */
+    }
+    
+    .dropdown .d-md-block {
+      display: none !important; /* Ẩn tên user */
+    }
+    
+    .avatar {
+      width: 2rem;
+      height: 2rem;
+    }
+    .avatarContent {
+      font-size: 0.8rem;
+    }
+    .avatarStatus {
+      width: 0.6rem;
+      height: 0.6rem;
+    }
+  }
+  @media (max-width: 575.98px){
+    .okela {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .d-flex.col.left-element-bar
+    {
+      flex-direction: row !important;
+    }
+    .col-12.col-md-4
+    {
+      padding: 0px;
+    }
+  }
+
+
+  

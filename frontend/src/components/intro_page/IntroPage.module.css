@@ -1,0 +1,176 @@
+.introHeader {
+  position: relative;
+  background: url(../../assets/img/Intro/kv-about-index-bg.jpg);
+}
+
+.introImgHeader {
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.introHeaderText {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.description {
+  padding-top: 4.375rem;
+  padding-bottom: 6.25rem;
+  background: url(../../assets/img/Intro/bg-about-index-intro.jpg) center
+    no-repeat;
+  background-size: cover;
+}
+
+.descriptionTitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.descriptionText {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  color: #333;
+}
+
+.introCard {
+  margin-top: -2.8rem;
+  margin-bottom: 6.25rem;
+  margin-bottom: 2rem;
+}
+
+.introCardTitle {
+  background-color: white !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin: 0 auto;
+  padding: 0.625rem;
+}
+
+.introCardImg {
+  width: 100%;
+}
+.introCardText {
+  padding: 1rem 0.625rem;
+  text-align: center;
+  color: #666;
+}
+
+.contactUsImgMobile {
+  width: 100%;
+}
+
+.contactUsImgPC {
+  width: 100%;
+}
+
+.contactUs {
+  background: url(../../assets/img/Intro/banner-about-index-contact.jpg) center
+    no-repeat;
+  background-size: cover;
+}
+
+.contactUsBlock {
+  width: 50%;
+  height: 100%;
+  padding: 4.375rem 0;
+}
+
+.contactUsTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.contactUsText {
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+
+.contactUsLink {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactUsButton {
+  width: 48%;
+  border: 0.06rem solid #bbb;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.6s ease;
+}
+
+.contactUsButton:hover {
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.contactUsLinkContact {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.supportLink {
+  color: #222;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactUsIcon {
+  font-size: 0.8rem;
+  padding-right: 0.6rem;
+  color: #6a6c6e;
+}
+
+/* medium devices (tablet and mobile, 992px and down) */
+@media (max-width: 992px) {
+  .introImgHeader {
+  }
+
+  .contactUs {
+    background-size: cover;
+    background-position: left;
+  }
+
+  .contactUsButton {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contactUsBlock {
+    width: 100%;
+    margin-top: -2rem;
+    padding-bottom: 3rem;
+  }
+
+  .contactUsTitle,
+  .contactUsText {
+    display: flex;
+    justify-content: center;
+    color: #333;
+  }
+
+  .introHeaderText {
+    color: #333;
+    font-size: 1.6rem;
+  }
+}
